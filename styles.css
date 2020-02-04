@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 62.5%; */
+  /* 10px - 1rem */
+}
+
+body {
+  background-color: pink;
+  font-family: monospace;
+}
+
+h1 {
+  border: 1px solid red;
+  padding-top: 20px;
+  width: 400px;
+  font-size: 3.2rem;
+}
+
+.container {
+  position: relative;
+}
+
+.sloth {
+  color: orange;
+  position: absolute;
+  left: 50px;
+  top: -50px;
+}
+
+p {
+  color: green;
+}
+
+
+a {
+  color: white;
+}
+
+.pineapple {
+  color: red;
+}
+
+.different {
+  color: blue;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.one, .two, .three {
+  border: 1px solid red;
+  display: inline-block;
+  width: 33%;
+}
